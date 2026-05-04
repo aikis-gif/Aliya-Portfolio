@@ -20,13 +20,13 @@ body {
 header {
     background-color: #401B22;
     color: #D9D0C7;
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
 }
 
 nav {
     background-color: #BF9D95;
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
 }
 nav ul
@@ -42,7 +42,7 @@ nav a
     margin: 0.5rem;
     font-weight: bold;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
 }
 nav a:hover
 {
@@ -69,9 +69,8 @@ footer {
     background-color: #401B22;
     color: #D9D0C7;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
+    padding: 0.5rem;
+    
     bottom: 0;
 }
 
