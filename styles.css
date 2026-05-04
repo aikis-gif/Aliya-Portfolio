@@ -14,6 +14,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     display: grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
 
 }
 
@@ -55,13 +60,11 @@ main {
 }
 main a
 {
-    color: #401B22;
+    color: #BF6363;
     text-decoration: underline;
     font-weight: bold;
 }
-h1, h2 {
-    color: #401B22;
-}
+
 h3 {
     color: #BF6363;
 }
@@ -70,7 +73,6 @@ footer {
     color: #D9D0C7;
     text-align: center;
     padding: 0.5rem;
-    
     bottom: 0;
 }
 
