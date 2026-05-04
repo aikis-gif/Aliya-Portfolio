@@ -73,10 +73,8 @@ main a
     text-decoration: underline;
     font-weight: bold;
 }
-main section {
-    margin-bottom: 2rem;
-    background-color: #F2C7BD;
-}
+
+
 h2 {
     text-align: center;
     font-weight: bold;
