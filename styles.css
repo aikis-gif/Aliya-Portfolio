@@ -13,6 +13,7 @@ body {
     color: #401B22;
     font-family: Arial, sans-serif;
     margin: 0;
+    display: grid;
 
 }
 
@@ -52,6 +53,30 @@ nav a:hover
 main {
     padding: 1rem;
 }
+main a
+{
+    color: #401B22;
+    text-decoration: underline;
+    font-weight: bold;
+}
+h1, h2 {
+    color: #401B22;
+}
+h3 {
+    color: #BF6363;
+}
+footer {
+    background-color: #401B22;
+    color: #D9D0C7;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
 .card-row
 {
     display: flex;
