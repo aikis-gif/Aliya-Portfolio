@@ -60,7 +60,7 @@ main {
 }
 main a
 {
-    color: #401B22;
+    color: #BF6363;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -91,5 +91,9 @@ footer {
     background-color: #F2C7BD;
     padding: 1rem;
 }
+@media screen and (min-width: 600px) {
+    body {}
+}
+
 
 
