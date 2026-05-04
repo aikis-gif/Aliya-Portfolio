@@ -14,7 +14,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     display: grid;
-    justify-items: center;
     grid-template-areas: 
         "header"
         "nav"
@@ -65,9 +64,6 @@ nav a:hover
 main {
     grid-area: main;
     padding: 1rem;
-    margin: 0rem;
-    min-height: 400px;  
-    max-width: 1200px;
 
 
 }
