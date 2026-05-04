@@ -42,14 +42,16 @@ nav ul
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 nav a
 {
     color: #401B22;
-    text-decoration: none;
+    text-decoration: underline;
     margin: 0.5rem;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     padding: 1rem ;
 }
 nav a:hover
@@ -97,7 +99,17 @@ footer {
     padding: 1rem;
 }
 @media screen and (min-width: 600px) {
-    body {}
+    body {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    header, nav, footer {
+        grid-column: 1 / -1;
+    }
+    .card-row {
+        display: flex;
+        flex-wrap: nowrap;  
+        
 }
 
 
