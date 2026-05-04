@@ -42,9 +42,7 @@ nav ul
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
 }
 nav a
 {
@@ -52,13 +50,14 @@ nav a
     text-decoration: underline;
     margin: 0.5rem;
     font-weight: bold;
-    display: block;
+    display: inline-block;
     padding: 1rem ;
 }
 nav a:hover
 {
     background-color: #BF6363;
     color: #D9D0C7;
+    widith: 100%;
 
 }
 main {
@@ -95,6 +94,7 @@ footer {
 .card-row
 {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 .card
