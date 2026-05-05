@@ -34,7 +34,7 @@ header p {
     font-weight: lighter;
     margin: 0;
     font-style: italic;
-    justify-content: center;
+    text-align: center;
 
     
 }
@@ -52,6 +52,8 @@ nav ul
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 
 }
 nav a
@@ -85,7 +87,7 @@ main a
 
 
 h2 {
-    text-align: center
+    text-align: center;
     font-weight: bold;
 }
 h3 {
@@ -109,6 +111,8 @@ footer {
     padding: 1rem;
     border: 0.5px dotted #401B22;
     background-color: #BF9D95;
+
+    
     
 }
 .card
