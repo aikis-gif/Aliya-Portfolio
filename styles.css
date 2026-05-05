@@ -88,7 +88,7 @@ main a
 
 
 h2 {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
 h3 {
@@ -107,7 +107,7 @@ img {
     max-width: 100px;
     height: auto;
     justify-content: right;
-    background-color: #D9D0C7;
+    background-color: transparent;
 }
 
 .card-row section
