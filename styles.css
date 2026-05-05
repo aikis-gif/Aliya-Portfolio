@@ -123,8 +123,6 @@ img {
 .card
 {
     padding: 1rem;
-    border: 0.5px dotted #401B22;
-    background-color: #F2C7BD;
 }
 @media screen and (min-width: 600px) {
     body {
