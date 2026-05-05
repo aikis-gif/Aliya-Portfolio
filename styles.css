@@ -34,6 +34,7 @@ header p {
     font-weight: lighter;
     margin: 0;
     font-style: italic;
+    justify-content: center;
 
     
 }
