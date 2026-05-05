@@ -71,8 +71,7 @@ nav a:hover
 main {
     grid-area: main;
     padding: 1rem;
-    margin: 0 auto;
-    max-width: 1200px;
+
 
 
 }
@@ -106,7 +105,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    padding: 1rem;
     border: 1px solid #401B22;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 .card
 {
