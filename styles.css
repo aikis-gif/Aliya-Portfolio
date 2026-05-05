@@ -104,7 +104,7 @@ footer {
     
 }
 img {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
     justify-content: right;
     background-color: #D9D0C7;
