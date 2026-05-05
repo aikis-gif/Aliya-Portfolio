@@ -106,8 +106,6 @@ footer {
 img {
     max-width: 100px;
     height: auto;
-    justify-content: right;
-    background-color: transparent;
 }
 
 .card-row section
