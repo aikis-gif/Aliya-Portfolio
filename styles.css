@@ -29,6 +29,12 @@ header {
     padding: 1rem;
     text-align: center;
 }
+header p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+}
 
 nav {
     grid-area: nav;
@@ -57,7 +63,7 @@ nav a:hover
 {
     background-color: #BF6363;
     color: #D9D0C7;
-    widith: 100%;
+    width: 100%;
 
 }
 main {
@@ -91,15 +97,15 @@ footer {
     
 }
 
-.card-row
+.card-row section
 {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    border: 1px solid #401B22;
 }
 .card
 {
-    background-color: #F2C7BD;
     padding: 1rem;
 }
 @media screen and (min-width: 600px) {
@@ -115,6 +121,6 @@ footer {
         flex-wrap: nowrap;  
 
 }
-
+}
 
 
