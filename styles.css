@@ -70,7 +70,6 @@ nav a:hover
 {
     background-color: #BF6363;
     color: #D9D0C7;
-    width: 100%;
 
 }
 main {
@@ -127,12 +126,13 @@ img {
 @media screen and (min-width: 600px) {
     body {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header header"
+            "nav main"
+            "footer footer";
         
     }
-    header, nav, footer {
-        grid-column: 1 / -1;
-    }
+
     .card-row {
         display: flex;
         flex-wrap: nowrap;  
