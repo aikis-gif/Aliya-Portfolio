@@ -34,7 +34,7 @@ header p {
     font-weight: lighter;
     margin: 0;
     font-style: italic;
-    text-align: left;
+
     
 }
 
@@ -106,7 +106,8 @@ footer {
     flex-wrap: wrap;
     gap: 3rem;
     padding: 1rem;
-    border: 1px solid #401B22;
+    border: 0.5px dotted #401B22;
+    background-color: #BF9D95;
     
 }
 .card
